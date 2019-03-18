@@ -1,0 +1,33 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorToolbar"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="1dp">
+
+    <RelativeLayout
+        android:id="@+id/rel_select_mystory_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:fontFamily="@font/advent_pro"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="News App"
+            android:textAppearance="@style/header_text"
+            android:letterSpacing="0.05"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
